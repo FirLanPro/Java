@@ -47,9 +47,9 @@ public class program {
         int w = 123;
         System.out.println(Integer.MAX_VALUE);
 
-        System.out.println("---------");
-        //String s = "qwer";
-        //s.length();
+        // System.out.println("---------");
+        // String s = "qwer";
+        // s.length();
         // s.charAt(1);
 
         System.out.println("---------");
@@ -185,17 +185,12 @@ public class program {
         for (int item : array2) {
             System.out.println(item);
         }
-
-
-
-
-
     }
     
+
     static String getType(Object o) {
         return o.getClass().getSimpleName();
     }
-
 
     static void sayHi() {
         System.out.println("hi");
@@ -206,8 +201,6 @@ public class program {
     static double factor (int n) {
         if (n==1) return 1;
         return n * factor(n-1);
-
     }
-    
 
 }
