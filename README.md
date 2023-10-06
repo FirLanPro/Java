@@ -21,7 +21,6 @@
 - [КОД_4](/Lecture_3/program4.java) | List<StringBuilder> d = Arrays.asList(date);
 - [КОД_5](/Lecture_3/program5.java) | UnsupportedOperationException
 - [КОД_6](/Lecture_3/program6.java) | Итератор
-Итератор
 - [read](/Lecture_3/read.md) |
 
 ## Lecture_4:
