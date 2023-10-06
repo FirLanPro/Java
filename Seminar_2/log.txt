@@ -1,0 +1,4 @@
+окт. 02, 2023 11:05:45 PM Seminar_2.program5 writeToFile
+INFO: Запись выполнена успешно
+окт. 02, 2023 11:56:35 PM Seminar_2.program5 writeToFile
+INFO: Запись выполнена успешно
