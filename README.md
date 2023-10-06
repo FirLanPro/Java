@@ -29,6 +29,7 @@
 - [КОД_2](/Lecture_4/program2.java) | Deque
 - [КОД_3](/Lecture_4/program3.java) | Stack
 - [КОД_4](/Lecture_4/program4.java) | Вычислить значение выражения в постфиксной форме записи
+
 ## Lecture_5:
 
 
@@ -41,10 +42,10 @@
 - [задача5](/Seminar_1/program4.java) | Реализовать функцию возведения числа а в степень b (минимум действий)
 
 ## Seminar_2:
-- [задача1](/Seminar_2/program.java) |
-- [задача2](/Seminar_2/program1.java) |
-- [задача3](/Seminar_2/program2.java) |
-- [задача4](/Seminar_2/program3.java) |
+- [задача1](/Seminar_2/program.java) | строка из чередующихся символов c1 и c2, начиная с c1
+- [задача2](/Seminar_2/program2.java) | метод сжимает строку
+- [задача3](/Seminar_2/program3.java) | метод определяет является ли строка палиндромом
+- [задача4](/Seminar_2/program4.java) | метод, который составит строку. запишет эту строку в простой текстовый файл
 
 
 ## Seminar_3:
