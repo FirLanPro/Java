@@ -3,7 +3,8 @@ import java.util.Scanner;
 
 public class program {
     public static void main(String[] args) {
-        System.out.println("by world");
+        System.out.println("by world"); 
+        System.out.println("---типы данных------");
         short age = 10;
         int salery = 123456;
         System.out.println(age);
@@ -44,8 +45,9 @@ public class program {
         System.out.println(d);
 
         System.out.println("---------");
-        int w = 123;
+        // int w = 123;
         System.out.println(Integer.MAX_VALUE);
+        System.out.println(Integer.MIN_VALUE);
 
         // System.out.println("---------");
         // String s = "qwer";
@@ -72,7 +74,7 @@ public class program {
         boolean z = s.length() >=5 && s.charAt(4) =='1';
         System.out.println(z);
 
-        System.out.println("---------");
+        System.out.println("----массивы--одномерные---");
         int[] arr = new int[10];
         System.out.println(arr.length);
         arr = new int[] {1,2,3,4,5};
@@ -83,7 +85,7 @@ public class program {
 
         // int[] arr;  // int brr[];
 
-        System.out.println("---------");
+        System.out.println("--массивы--многоверные-----");
         int[] array[] = new int[3][5];
         for (int[] line : array) {
             for (int item : line) {
@@ -105,7 +107,7 @@ public class program {
         byte p = Byte.parseByte("12"); // byte <= 255
         System.out.println(p);
 
-        System.out.println("---------");
+        System.out.println("----полусение данных из терминала-----");
         Scanner iScanner = new Scanner(System.in);
         System.out.printf("name: ");
         String name = iScanner.nextLine();
@@ -122,12 +124,21 @@ public class program {
         String q = m + n;
         System.out.println(q);
 
-        System.out.println("---------"); //%d целочисленные ; %s строковые ; %c одиночный символ ; %f плавающая точка (%.2f 2 знака после ,) ; %e по формуле ; %x шестнадцатеричные числа
+        System.out.println("-форматированный вывод--------"); //%d целочисленные ; %s строковые ; %c одиночный символ ; %f плавающая точка (%.2f 2 знака после ,) ; %e по формуле ; %x шестнадцатеричные числа
         int l =1, r = 2;
         int h = l + r;
         String res = String.format("%d + %d = %d\n", l, r, h);
         System.out.printf("%d + %d = %d \n", l, r, h);
         System.out.println(res);
+
+        // System.out.println("---------"); 
+        // float pi = 3.1415f;
+        // System.out.printf("%f\n", pi); // 3,141500
+        // System.out.printf("%.2f\n", pi); // 3,14
+        // System.out.printf("%.3f\n", pi); // 3,141
+        // System.out.printf("%e\n", pi); // 3,141500e+00
+        // System.out.printf("%.2e\n", pi); // 3,14e+00
+        // System.out.printf("%.3e\n", pi); // 3,141e+00
 
         // Область видимости:
         // int b = 111;

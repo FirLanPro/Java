@@ -1,9 +1,9 @@
 
-// Создание и запись\ дозапись
+// Создание и запись\ дозапись файла
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class Program {
+public class program2 {
     public static void main(String[] args) {
         try (FileWriter fw = new FileWriter("file.txt", false)) {
             fw.write("line 1");
@@ -19,33 +19,33 @@ public class Program {
 }
 
 // Чтение, Вариант посимвольно
-import java.io.*;
+// import java.io.*;
 
-public class Program {
-    public static void main(String[] args) throws Exception {
-        FileReader fr = new FileReader("file.txt");
-        int c;
-        while ((c = fr.read()) != -1) {
-            char ch = (char) c;
-            if (ch == '\n') {
-                System.out.print(ch);
-            } else {
-                System.out.print(ch);
-            }
-        }
-    }
-}
+// public class program2 {
+//     public static void main(String[] args) throws Exception {
+//         FileReader fr = new FileReader("file.txt");
+//         int c;
+//         while ((c = fr.read()) != -1) {
+//             char ch = (char) c;
+//             if (ch == '\n') {
+//                 System.out.print(ch);
+//             } else {
+//                 System.out.print(ch);
+//             }
+//         }
+//     }
+// }
 
 // Вариант построчно
-import java.io.*;
+// import java.io.*;
 
-public class Program {
-    public static void main(String[] args) throws Exception {
-        BufferedReader br = new BufferedReader(new FileReader("file.txt"));
-        String str;
-        while ((str = br.readLine()) != null) {
-            System.out.printf("== %s ==\n", str);
-        }
-        br.close();
-    }
-}
+// public class program2 {
+//     public static void main(String[] args) throws Exception {
+//         BufferedReader br = new BufferedReader(new FileReader("file.txt"));
+//         String str;
+//         while ((str = br.readLine()) != null) {
+//             System.out.printf("== %s ==\n", str);
+//         }
+//         br.close();
+//     }
+// }
