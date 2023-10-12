@@ -39,6 +39,7 @@
 - [КОД_5](/Lecture_5/program5.java)  | TreeMap
 - [КОД_6](/Lecture_5/program6.java)  | LinkedHashMap
 - [КОД_7](/Lecture_5/program7.java)  | HashTable
+- [read](/Lecture_5/read.md)
 
 
 
