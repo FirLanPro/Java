@@ -40,8 +40,4 @@ public class program13 {
             buildTree(arr, i, 0);
         }
     }
-
-    
-
-    
 }
