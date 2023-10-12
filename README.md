@@ -31,6 +31,18 @@
 - [КОД_4](/Lecture_4/program4.java) | Вычислить значение выражения в постфиксной форме записи
 
 ## Lecture_5:
+- [КОД_0](/Lecture_5/program.java)   | HachMap
+- [КОД_1](/Lecture_5/program1.java)  | HachMap
+- [КОД_2](/Lecture_5/program2.java)  | HachMap
+- [КОД_3](/Lecture_5/program3.java)  | HachMap
+- [КОД_4](/Lecture_5/program4.java)  | HachMap
+- [КОД_5](/Lecture_5/program5.java)  | TreeMap
+- [КОД_6](/Lecture_5/program6.java)  | LinkedHashMap
+- [КОД_7](/Lecture_5/program7.java)  | HashTable
+
+
+
+
 
 
 
@@ -50,7 +62,12 @@
 
 ## Seminar_3:
 ## Seminar_4:
+
 ## Seminar_5:
+- [задача1](/Seminar_5/program.java)   | 
+- [задача2](/Seminar_5/program1.java)  | 
+- [задача3](/Seminar_5/program2.java)  | 
+
 
 ## HomeWork:
 
