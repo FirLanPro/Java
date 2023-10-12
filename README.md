@@ -60,3 +60,5 @@
 - [№__3](/Seminar_2/program4.java) | сортировка слиянием
 - [№__3](/Seminar_2/program5.java) | список без четных чисел
 - [№__3](/Seminar_2/program6.java) | Сортирует его по возрастанию\ min max значение в списке\ среднее арифметическое значений списка
+- [№__4](/Seminar_2/program7.java) | Перевернутый LinkedList
+- [№__4](/Seminar_2/program8.java) | Реализация очереди с помощью LinkedList
